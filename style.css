@@ -49,7 +49,7 @@ body{
     text-shadow: 1px 1px 10px rgb(38, 240, 149);
 }
 
-.input-box #inputbx ,.result{
+.input-box #inputbx {
     height: 47px;
     font-size: 1.3em;
     width: 250px;
