@@ -51,10 +51,13 @@ body{
     border-radius: 10px;
     box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.557);
     color:rgb(16, 187, 199);
+    padding-left: 10px;
     font-size: 1.2em;
 }
-.btn{
+
+.btn ,.reset{
     height: 45px;
+    font-weight: 700;
     width: 250px;
     border-radius: 20px;
     box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.557);
@@ -64,21 +67,33 @@ body{
     font-size: 1.3em;
     cursor: pointer;
 }
+.resultbox{
+    margin-top: 30px;
+    margin-left: -50px;
+   
+}
 
 .resultbox label{
     color: aquamarine;
     font-size: 1.3em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-.resultbox input{
+.resultbox label p{
+    color: aquamarine;
+    font-size: .7em;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 6px;
     height: 45px;
-    width: 250px;
-    background: rgba(0, 0, 0, 0.157);
-    border: none;
-    cursor: none;
+    width: 350px;
+    border: 1px solid rgb(16, 187, 199);
     border-radius: 10px;
     box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.557);
-    color:rgb(16, 187, 199);
-    font-size: 1.2em;
-    margin-top: 30px;
 }
+

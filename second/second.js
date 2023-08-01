@@ -2,7 +2,8 @@ const answer = Math.floor(Math.random()*10+1);
 let guesses = 0;
 const inputbx = document.querySelector('#inputbx');
 const btn = document.querySelector('.btn');
-const resultbx = document.querySelector('#resultbx');
+const reset = document.querySelector('.reset');
+const resultbx = document.querySelector('p');
 
 btn.addEventListener('click',()=>{
     guesses+=1;
@@ -16,4 +17,10 @@ btn.addEventListener('click',()=>{
   else{
     alert('Too large');
   }
-})
+});
+reset.onclick= ()=>{
+guesses = 0;
+resultbx.textContent = "";
+inputbx.value= "";
+answer = "";
+};
