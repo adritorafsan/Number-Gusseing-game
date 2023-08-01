@@ -54,8 +54,22 @@ body{
     padding-left: 10px;
     font-size: 1.2em;
 }
+.reset{
+    height: 35px;
+    font-weight: 700;
+    width: 130px;
+    border-radius: 16px;
+    box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.557);
+    background: linear-gradient(to left bottom, rgb(78, 47, 179),rgb(45, 174, 36));
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+    margin-left: 73%;
+    margin-top: 8%;
+}
 
-.btn ,.reset{
+.btn{
     height: 45px;
     font-weight: 700;
     width: 250px;

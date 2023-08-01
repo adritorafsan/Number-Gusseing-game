@@ -19,8 +19,5 @@ btn.addEventListener('click',()=>{
   }
 });
 reset.onclick= ()=>{
-guesses = 0;
-resultbx.textContent = "";
-inputbx.value= "";
-answer = "";
+    location.reload()
 };
